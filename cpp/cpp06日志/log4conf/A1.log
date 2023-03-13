@@ -1,0 +1,5 @@
+1659940565 WARN sub1 : [TestMylogger.cpp:test:36]this is a error message! number = 1,str = hello
+1659940565 WARN sub1 : [TestMylogger.cpp:test:38]this is a error message! number = 1, str = hello
+1659940565 WARN sub1 : [TestMylogger.cpp:test:39]this is a warn messages!
+1659940565 INFO sub1 : [TestMylogger.cpp:test:40]this is a info message!
+1659940565 DEBUG sub1 : [TestMylogger.cpp:test:41]this is a error messages!

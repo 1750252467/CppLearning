@@ -1,0 +1,3 @@
+2022-08-19 23:02:38,317 Mydebug [INFO] [TestMylogger.cpp:test:10]this is a error message! number = 100,str = hello,log4cpp
+2022-08-19 23:02:38,317 Mydebug [INFO] [TestMylogger.cpp:test:14]this is a info message! number = 100, str = hello,log4cpp
+

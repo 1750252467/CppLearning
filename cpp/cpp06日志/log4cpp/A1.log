@@ -1,0 +1,8 @@
+1659837537 DEBUG sub1 : Received storm warning
+1659837537 INFO sub1 : Closing all hatches
+1659837537 DEBUG sub1.sub2 : Hiding solar panels
+1659837537 ERROR sub1.sub2 : Solar panels are blocked
+1659837537 DEBUG sub1.sub2 : Applying protective shield
+1659837537 WARN sub1.sub2 : Unfolding protective shield
+1659837537 INFO sub1.sub2 : Solar panels are shielded
+1659837537 INFO sub1 : All hatches closed

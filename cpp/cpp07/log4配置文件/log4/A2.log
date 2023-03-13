@@ -1,0 +1,3 @@
+2022-08-07 15:58:33,309 sub1 [WARN] [TestMylogger.cpp:test:36]this is a error message! number = 1,str = 纳西妲
+2022-08-07 15:58:33,309 sub1 [WARN] [TestMylogger.cpp:test:38]this is a error message! number = 1, str = 纳西妲
+2022-08-07 15:58:33,309 sub1 [WARN] [TestMylogger.cpp:test:39]this is a warn messages!
