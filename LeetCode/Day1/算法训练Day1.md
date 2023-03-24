@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [算法训练Day1](#%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83day1)
+- [1.二分查找](#1%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+  - [自己第一次错误代码：](#%E8%87%AA%E5%B7%B1%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81)
+  - [查看其他文章更正后：](#%E6%9F%A5%E7%9C%8B%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0%E6%9B%B4%E6%AD%A3%E5%90%8E)
+        - [左闭右闭[left, right]解法](#%E5%B7%A6%E9%97%AD%E5%8F%B3%E9%97%ADleft-right%E8%A7%A3%E6%B3%95)
+  - [分析总结：](#%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93)
+- [2.移除元素](#2%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0)
+  - [暴力解法：](#%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95)
+  - [双指针法](#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95)
+  - [相向双指针法](#%E7%9B%B8%E5%90%91%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95)
+  - [分析总结](#%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 
 # 算法训练Day1

@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [有效的字母异位词](#%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D)
+  - [自己题解](#%E8%87%AA%E5%B7%B1%E9%A2%98%E8%A7%A3)
+  - [其他参考](#%E5%85%B6%E4%BB%96%E5%8F%82%E8%80%83)
+- [两个数组的交集](#%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86)
+  - [题解（重点在熟悉set的一些操作以及使用场景）](#%E9%A2%98%E8%A7%A3%E9%87%8D%E7%82%B9%E5%9C%A8%E7%86%9F%E6%82%89set%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF)
+- [快乐数](#%E5%BF%AB%E4%B9%90%E6%95%B0)
+- [两数之和](#%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)
+  - [题解（这道题还是比较难的）](#%E9%A2%98%E8%A7%A3%E8%BF%99%E9%81%93%E9%A2%98%E8%BF%98%E6%98%AF%E6%AF%94%E8%BE%83%E9%9A%BE%E7%9A%84)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [有效的字母异位词](https://leetcode.cn/problems/valid-anagram/description/)
 
 |  Category  |  Difficulty   | Likes | Dislikes | ContestSlug | ProblemIndex | Score |

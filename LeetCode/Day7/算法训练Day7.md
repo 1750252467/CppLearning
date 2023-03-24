@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [四数相加 II](#%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0-ii)
+- [赎金信](#%E8%B5%8E%E9%87%91%E4%BF%A1)
+  - [暴力解法](#%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95)
+  - [优质解答](#%E4%BC%98%E8%B4%A8%E8%A7%A3%E7%AD%94)
+- [三数之和](#%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C)
+  - [不会，写不下去了](#%E4%B8%8D%E4%BC%9A%E5%86%99%E4%B8%8D%E4%B8%8B%E5%8E%BB%E4%BA%86)
+  - [大佬题解](#%E5%A4%A7%E4%BD%AC%E9%A2%98%E8%A7%A3)
+    - [哈希解法](#%E5%93%88%E5%B8%8C%E8%A7%A3%E6%B3%95)
+  - [双指针](#%E5%8F%8C%E6%8C%87%E9%92%88)
+  - [#去重逻辑的思考](#%E5%8E%BB%E9%87%8D%E9%80%BB%E8%BE%91%E7%9A%84%E6%80%9D%E8%80%83)
+    - [#a的去重](#a%E7%9A%84%E5%8E%BB%E9%87%8D)
+    - [#b与c的去重](#b%E4%B8%8Ec%E7%9A%84%E5%8E%BB%E9%87%8D)
+- [四数之和](#%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C)
+  - [不会，直接看大佬的（剪枝头疼）](#%E4%B8%8D%E4%BC%9A%E7%9B%B4%E6%8E%A5%E7%9C%8B%E5%A4%A7%E4%BD%AC%E7%9A%84%E5%89%AA%E6%9E%9D%E5%A4%B4%E7%96%BC)
+- [[参考文章](代码随想录 (programmercarl.com))](#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95-programmercarlcom)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [四数相加 II](https://leetcode.cn/problems/4sum-ii/description/)
 
 |  Category  |   Difficulty    | Likes | Dislikes | ContestSlug | ProblemIndex | Score |

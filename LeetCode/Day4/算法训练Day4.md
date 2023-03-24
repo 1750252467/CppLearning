@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [两两交换链表中的节点](#%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9)
+  - [我是用vs code 刷LeetCode题的，下个插件可以免费调式，长这样。写博客是用的Typora通过PicGo连接阿里云做图床，本地写好后，一键上传.md文档就可以了，很便捷，虽然刚开始博客仅仅是记录过程。但坚持最重要，后续质量会有所提高。](#%E6%88%91%E6%98%AF%E7%94%A8vs-code-%E5%88%B7leetcode%E9%A2%98%E7%9A%84%E4%B8%8B%E4%B8%AA%E6%8F%92%E4%BB%B6%E5%8F%AF%E4%BB%A5%E5%85%8D%E8%B4%B9%E8%B0%83%E5%BC%8F%E9%95%BF%E8%BF%99%E6%A0%B7%E5%86%99%E5%8D%9A%E5%AE%A2%E6%98%AF%E7%94%A8%E7%9A%84typora%E9%80%9A%E8%BF%87picgo%E8%BF%9E%E6%8E%A5%E9%98%BF%E9%87%8C%E4%BA%91%E5%81%9A%E5%9B%BE%E5%BA%8A%E6%9C%AC%E5%9C%B0%E5%86%99%E5%A5%BD%E5%90%8E%E4%B8%80%E9%94%AE%E4%B8%8A%E4%BC%A0md%E6%96%87%E6%A1%A3%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BA%86%E5%BE%88%E4%BE%BF%E6%8D%B7%E8%99%BD%E7%84%B6%E5%88%9A%E5%BC%80%E5%A7%8B%E5%8D%9A%E5%AE%A2%E4%BB%85%E4%BB%85%E6%98%AF%E8%AE%B0%E5%BD%95%E8%BF%87%E7%A8%8B%E4%BD%86%E5%9D%9A%E6%8C%81%E6%9C%80%E9%87%8D%E8%A6%81%E5%90%8E%E7%BB%AD%E8%B4%A8%E9%87%8F%E4%BC%9A%E6%9C%89%E6%89%80%E6%8F%90%E9%AB%98)
+  - [题解（使用虚拟结点并找到循环不变式）](#%E9%A2%98%E8%A7%A3%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BB%93%E7%82%B9%E5%B9%B6%E6%89%BE%E5%88%B0%E5%BE%AA%E7%8E%AF%E4%B8%8D%E5%8F%98%E5%BC%8F)
+- [删除链表的倒数第 N 个结点](#%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC-n-%E4%B8%AA%E7%BB%93%E7%82%B9)
+  - [错误题解记录](#%E9%94%99%E8%AF%AF%E9%A2%98%E8%A7%A3%E8%AE%B0%E5%BD%95)
+  - [正确题解](#%E6%AD%A3%E7%A1%AE%E9%A2%98%E8%A7%A3)
+- [链表相交](#%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4)
+  - [题解（注意是指针相等而不是数值相等）](#%E9%A2%98%E8%A7%A3%E6%B3%A8%E6%84%8F%E6%98%AF%E6%8C%87%E9%92%88%E7%9B%B8%E7%AD%89%E8%80%8C%E4%B8%8D%E6%98%AF%E6%95%B0%E5%80%BC%E7%9B%B8%E7%AD%89)
+- [环形链表 II](#%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8-ii)
+  - [快慢双指针解法（详细解释看文末链接）](#%E5%BF%AB%E6%85%A2%E5%8F%8C%E6%8C%87%E9%92%88%E8%A7%A3%E6%B3%95%E8%AF%A6%E7%BB%86%E8%A7%A3%E9%87%8A%E7%9C%8B%E6%96%87%E6%9C%AB%E9%93%BE%E6%8E%A5)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/)
 
 

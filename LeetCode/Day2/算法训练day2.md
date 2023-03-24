@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [有序数组的平方](#%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9)
+  - [暴力题解](#%E6%9A%B4%E5%8A%9B%E9%A2%98%E8%A7%A3)
+  - [双指针](#%E5%8F%8C%E6%8C%87%E9%92%88)
+- [长度最小的子数组](#%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84)
+  - [滑动窗口题解（本质还是双指针）](#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E9%A2%98%E8%A7%A3%E6%9C%AC%E8%B4%A8%E8%BF%98%E6%98%AF%E5%8F%8C%E6%8C%87%E9%92%88)
+- [螺旋矩阵 II](#%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5-ii)
+  - [题解(重点找到循环不变式)](#%E9%A2%98%E8%A7%A3%E9%87%8D%E7%82%B9%E6%89%BE%E5%88%B0%E5%BE%AA%E7%8E%AF%E4%B8%8D%E5%8F%98%E5%BC%8F)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/description/)
 
 |  Category  |  Difficulty   | Likes | Dislikes |    ContestSlug     | ProblemIndex | Score |

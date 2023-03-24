@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [移除链表元素](#%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0)
+  - [自己写的错误代码（恶心）](#%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81%E6%81%B6%E5%BF%83)
+  - [正确答案(原链表操作)](#%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88%E5%8E%9F%E9%93%BE%E8%A1%A8%E6%93%8D%E4%BD%9C)
+  - [设置一个虚拟头结点在进行移除节点操作：](#%E8%AE%BE%E7%BD%AE%E4%B8%80%E4%B8%AA%E8%99%9A%E6%8B%9F%E5%A4%B4%E7%BB%93%E7%82%B9%E5%9C%A8%E8%BF%9B%E8%A1%8C%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9%E6%93%8D%E4%BD%9C)
+- [设计链表](#%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8)
+  - [采用虚拟结点解法](#%E9%87%87%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BB%93%E7%82%B9%E8%A7%A3%E6%B3%95)
+- [反转链表](#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
+  - [分析总结](#%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/)
 
 |  Category  |  Difficulty   | Likes | Dislikes | ContestSlug | ProblemIndex | Score |
